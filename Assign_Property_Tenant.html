@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Signup </title>
+	</head>
+	
+	<body>
+		<form action = "Assign_Property.php" method = "POST">
+			<p> Please Assign a propertyunit to tenant: </p>
+
+			<p> Enter the TenantUID (WARNING:ID needs to be the one who don't have property) :<br>
+			    Your can View No Property TenantID first!:<br>
+				<input type="text" name="tid" value="" />
+			</p>
+			
+			<p> Enter the PropertyID(WARNING:PropertyID and ApartmentNumber should be Availiable<br>
+				<input type="text" name="pid" value="" maxlength=8/>
+			</p>
+			
+			<p> Enter the ApartmentNumber:<br>
+				<input type="text" name="an" value=""/>
+			</p>
+			
+			
+			<p> <input type="submit" name="submit" value="Submit"/>
+			</p>
+			
+			<p>                                                       
+			<a href="http://www.cs.nmsu.edu/~yulan/Assign_Man.html">Go Back</a>
+			</p>
+			
+		</form>
+	</body>
+</html>

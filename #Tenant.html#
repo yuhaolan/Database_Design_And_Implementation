@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> index </title>
+</head>
+
+<html>
+	<body>
+		<a href = 'SignIn.html'>SignIn</a></br>
+		<a href = 'View.html'>View</a></br>
+		<a href = 'Edit.html'>Edit</a></br>
+		<a href = 'Pay.html'>Pay</a></br>
+		<a href = 'Logout.html'>LogOut</a></br>
+	</body>
+</html>

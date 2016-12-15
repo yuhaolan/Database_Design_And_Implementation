@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Signup </title>
+	</head>
+	
+	<body>
+		<form action = "Pay_Tenant.php" method = "POST">
+			<p> Please Pay: </p>
+
+			<p> Enter Amount in dollars :<br>
+				<input type="text" name="Payamount" value=""/>
+			</p>
+			
+			
+			<p> Choose a payment method :<br>
+				<select name="method" size="1">
+				 <option value="credit">credit</option>
+				 <option value="debit">debit</option>
+				 <option value="check">check</option>
+				</select>			
+			</p>
+
+			<p> <input type="submit" name="submit" value="Submit"/>
+			</p>
+			
+			<p>                                                       
+			<a href="http://www.cs.nmsu.edu/~yulan/Edit_Tenant.html">Go Back</a>
+			</p>
+		</form>
+	</body>
+</html>

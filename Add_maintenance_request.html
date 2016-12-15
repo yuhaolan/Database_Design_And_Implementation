@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Signup </title>
+	</head>
+	
+	<body>
+		<form action = "Add_Maintenance_Request_Info.php" method = "POST">
+			<p> Please add the maintenance request: </p>
+
+			<p> Enter the Date :<br>
+				<input type="text" name="date" value=""/>
+			</p>
+			
+			<p> Enter the RequestedJob :<br>
+				<input type="text" name="job" value=""/>
+			</p>
+			
+			<p> Enter the PropertyID (111,222,333,444 are available) :<br>
+				<input type="text" name="pid" value="" maxlength=8/>
+			</p>
+
+			<p> Enter the ApartmentNumber(1 and 2 are available):<br>
+				<input type="text" name="aid" value="" maxlength=8/>
+			</p>
+			
+			<p> <input type="submit" name="submit" value="Submit"/>
+			</p>
+			
+			<p>                                                       
+			<a href="http://www.cs.nmsu.edu/~yulan/Update_Man_Request.html">Go Back</a>
+			</p>
+			
+		</form>
+	</body>
+</html>

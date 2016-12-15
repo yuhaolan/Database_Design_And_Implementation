@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> index </title>
+</head>
+
+<html>
+	<body>       
+		
+	
+		<p> Log In to Assign_Propetry_Tenant System !</p>
+		<a href = 'View_No_Property_Tenant.php'>View_No_Property_Tenant_ID</a></br>
+		<a href = 'Assign_Property_Tenant.html'>Assign_Property_To_Tenant</a></br>
+		<a href = 'http://www.cs.nmsu.edu/~yulan/'>LogOut</a></br>
+	</body>
+</html>

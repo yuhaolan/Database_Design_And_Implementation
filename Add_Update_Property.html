@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Signup </title>
+	</head>
+	
+	<body>
+		<form action = "Add_Update_Property.php" method = "POST">
+			<p> Please Add Update Property: </p>
+
+			<p> Enter the PropertyID (111,222,333,444 are available for update) :<br>
+				<input type="text" name="pid" value="" maxlength=8/>
+			</p>
+			
+			<p> Enter the PropertyName:<br>
+				<input type="text" name="pname" value="" maxlength=8/>
+			</p>
+			
+			<p> Enter the StreetName:<br>
+				<input type="text" name="sname" value=""/>
+			</p>
+			
+			<p> Enter the StreetNumber:<br>
+				<input type="text" name="snumber" value=""/>
+			</p>
+			
+			<p> Enter the City:<br>
+				<input type="text" name="city" value=""/>
+			</p>
+			
+			<p> Enter the State:<br>
+				<input type="text" name="state" value=""/>
+			</p>
+			
+			<p> Enter the Zip:<br>
+				<input type="text" name="zip" value=""/>
+			</p>
+
+			<p> Enter the ManagerUID(00000004,00000005,00000006,testmanager1 available to use):<br>
+			    If you want more ManagerUID, please add a new Manager information first!:<br>
+				<input type="text" name="mid" value="">
+			</p>
+			
+			<p> <input type="submit" name="submit" value="Submit"/>
+			</p>
+			
+			<p>                                                       
+			<a href="http://www.cs.nmsu.edu/~yulan/Data_Entry.html">Go Back</a>
+			</p>
+			
+		</form>
+	</body>
+</html>
